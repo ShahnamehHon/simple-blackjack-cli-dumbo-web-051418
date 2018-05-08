@@ -29,7 +29,7 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(current_cards)
   prompt_user
   value = get_user_input
   if value == 's'
