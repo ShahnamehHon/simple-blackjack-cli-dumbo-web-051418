@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?
-   prompt_user
+  prompt_user
   value = get_user_input
   if value == 's'
     current_cards
