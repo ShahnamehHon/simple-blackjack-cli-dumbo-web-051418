@@ -42,7 +42,7 @@ def hit?(current_cards)
 end
 
 def invalid_command
-  puts "Please enter a valid command"
+  puts "Please enter a valid command. 'S' or 'H'"
   prompt_user
 end
 
