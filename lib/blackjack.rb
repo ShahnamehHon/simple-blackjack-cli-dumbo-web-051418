@@ -18,12 +18,12 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game
-  
+def end_game(card_total)
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-  # code #initial_round here
+  
 end
 
 def hit?
